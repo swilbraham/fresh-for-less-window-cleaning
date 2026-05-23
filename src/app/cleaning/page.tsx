@@ -128,7 +128,7 @@ export default function CleaningLandingPage() {
         <section className="relative min-h-[90dvh] overflow-hidden bg-slate-950">
           {/* Background layers */}
           <div className="absolute inset-0">
-            <img src="/images/hero-bg.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+            <img src="/images/window-cleaner.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-slate-950/75" />
             <div className="absolute inset-0 bg-gradient-to-br from-primary-950/80 via-slate-900/60 to-slate-950/80" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--color-primary-900)_0%,_transparent_50%)] opacity-40" />
@@ -439,7 +439,7 @@ export default function CleaningLandingPage() {
         {/* ══════════ FINAL CTA ══════════ */}
         <section className="relative overflow-hidden bg-slate-950 py-20 lg:py-28">
           <div className="absolute inset-0">
-            <img src="/images/cta-interior.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+            <img src="/images/window-cleaner.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-slate-950/80" />
             <div className="absolute inset-0 bg-gradient-to-br from-primary-950/70 via-slate-900/50 to-slate-950/70" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-primary-800)_0%,_transparent_60%)] opacity-30" />

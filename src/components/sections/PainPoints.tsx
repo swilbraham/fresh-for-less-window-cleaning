@@ -64,15 +64,6 @@ export default function PainPoints() {
           </p>
         </AnimatedSection>
 
-        {/* Visual banner */}
-        <AnimatedSection className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-2xl shadow-lg">
-          <img
-            src="/images/clean-carpet.jpg"
-            alt="Sparkling clean windows letting natural light into a home"
-            className="h-48 w-full object-cover sm:h-56 lg:h-64"
-          />
-        </AnimatedSection>
-
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:gap-8">
           {painPoints.map((point, i) => (
             <AnimatedSection key={point.title} delay={i * 0.1}>

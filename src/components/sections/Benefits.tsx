@@ -79,15 +79,6 @@ export default function Benefits() {
           </p>
         </AnimatedSection>
 
-        {/* Family image banner */}
-        <AnimatedSection className="mx-auto mt-12 max-w-5xl overflow-hidden rounded-2xl shadow-lg">
-          <img
-            src="/images/family-home.jpg"
-            alt="Bright family home with sparkling clean windows"
-            className="h-48 w-full object-cover sm:h-64 lg:h-72"
-          />
-        </AnimatedSection>
-
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {benefits.map((benefit, i) => (
             <AnimatedSection key={benefit.title} delay={i * 0.08}>

@@ -48,8 +48,8 @@ export default function About() {
               {/* Team photo */}
               <div className="mb-6 overflow-hidden rounded-2xl shadow-lg">
                 <img
-                  src="/images/about-cleaner.jpg"
-                  alt="Professional window cleaner using a water-fed pole"
+                  src="/images/window-cleaner.jpg"
+                  alt="Professional window cleaner working on a sparkling clean window"
                   className="h-56 w-full object-cover sm:h-64"
                 />
               </div>

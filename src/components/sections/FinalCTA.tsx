@@ -9,11 +9,11 @@ export default function FinalCTA({ onQuoteClick }: { onQuoteClick: () => void })
       {/* Background with image */}
       <div className="absolute inset-0">
         <img
-          src="/images/cta-interior.jpg"
+          src="/images/window-cleaner.jpg"
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-950/80" />
+        <div className="absolute inset-0 bg-slate-950/90" />
         <div className="absolute inset-0 bg-gradient-to-br from-primary-950/70 via-slate-900/50 to-slate-950/70" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--color-primary-800)_0%,_transparent_60%)] opacity-30" />
         <div

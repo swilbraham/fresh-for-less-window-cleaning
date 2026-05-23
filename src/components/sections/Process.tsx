@@ -65,15 +65,6 @@ export default function Process() {
           </p>
         </AnimatedSection>
 
-        {/* Clean room result image */}
-        <AnimatedSection className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-2xl shadow-lg">
-          <img
-            src="/images/clean-room.jpg"
-            alt="Bright, sunlit living room with sparkling clean windows"
-            className="h-48 w-full object-cover sm:h-56 lg:h-64"
-          />
-        </AnimatedSection>
-
         <div className="relative mt-12">
           {/* Connection line */}
           <div className="absolute left-8 top-0 bottom-0 hidden w-px bg-gradient-to-b from-primary-200 via-primary-300 to-accent-200 lg:left-1/2 lg:block" />
