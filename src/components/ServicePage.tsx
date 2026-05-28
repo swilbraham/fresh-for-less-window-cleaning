@@ -65,18 +65,6 @@ const homeIcon = (
   </svg>
 );
 
-const sunIcon = (
-  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-  </svg>
-);
-
-const buildingIcon = (
-  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
-  </svg>
-);
-
 const servicesData: Record<string, ServiceData> = {
   "window-cleaning": {
     title: "Window Cleaning",
@@ -141,391 +129,203 @@ const servicesData: Record<string, ServiceData> = {
     ],
   },
 
-  "gutter-clearing": {
-    title: "Gutter Clearing",
+  "carpet-cleaning": {
+    title: "Carpet Cleaning",
     description:
-      "Powerful vacuum-pole gutter clearance that empties leaves, moss, and debris from your gutters — no ladders, no mess, no fuss.",
-    heroSubtitle: "Clear Gutters. Dry Walls. No Ladders.",
-    pricing: "Starting from £55",
+      "Deep hot-water extraction that lifts ground-in dirt, stains, and allergens from your carpets — leaving them fresh, fluffed, and dry within a few hours.",
+    heroSubtitle: "Like-New Carpets. Dry in Hours.",
+    pricing: "Starting from £35 per room",
     features: [
       {
         icon: dropIcon,
-        title: "Vacuum-Pole System",
+        title: "Hot-Water Extraction",
         description:
-          "Industrial vacuum and carbon-fibre poles let us clear gutters from the ground — up to four stories high, safely and quickly.",
-      },
-      {
-        icon: sunIcon,
-        title: "Before & After Photos",
-        description:
-          "We take camera-on-a-pole footage of every gutter so you can see exactly what we found and what we've cleared.",
-      },
-      {
-        icon: shieldIcon,
-        title: "No Damage to Roof Tiles",
-        description:
-          "Working from the ground means no ladders leaning on your gutters and no walking on your roof tiles — zero risk of damage.",
-      },
-      {
-        icon: homeIcon,
-        title: "All Debris Bagged & Removed",
-        description:
-          "Leaves, moss, and silt are bagged and taken away. We sweep up around the property and leave it tidier than we found it.",
-      },
-      {
-        icon: checkIcon,
-        title: "Fast Same-Week Service",
-        description:
-          "Blocked gutters can't wait. We aim to fit emergency gutter clearance jobs into the next available slot, usually within a week.",
-      },
-      {
-        icon: clockIcon,
-        title: "Annual Maintenance Plans",
-        description:
-          "Book a yearly gutter clear at a discounted rate to keep blockages, leaks, and damp walls a thing of the past.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How do you clear gutters without a ladder?",
-        answer:
-          "We use an industrial wet/dry vacuum connected to carbon-fibre poles up to 40ft long. The pole reaches into the gutter and suctions out leaves, moss, and silt directly into a sealed unit on the ground.",
-      },
-      {
-        question: "How often should gutters be cleared?",
-        answer:
-          "Most homes benefit from a clear at least once a year — ideally in late autumn after the leaves have fallen. Homes near trees may need two clears a year.",
-      },
-      {
-        question: "What if there's a downpipe blockage?",
-        answer:
-          "We can rod and flush downpipes as part of a gutter clear. If there's a more serious blockage we'll quote separately before any extra work.",
-      },
-    ],
-  },
-
-  "conservatory-cleaning": {
-    title: "Conservatory Cleaning",
-    description:
-      "Bring the light back into your conservatory with a full clean of the roof, glass, frames, and gutters. We make the whole structure look like new.",
-    heroSubtitle: "Let the Light Back In.",
-    pricing: "Starting from £45",
-    features: [
-      {
-        icon: dropIcon,
-        title: "Roof, Glass & Frames",
-        description:
-          "Full pure-water clean of the conservatory roof, side glass, and uPVC frames — top to bottom.",
+          "Industrial-grade machines inject a heated cleaning solution deep into the pile and immediately extract it — pulling out trapped dirt, dust mites, and grime.",
       },
       {
         icon: sparkleIcon,
-        title: "Algae & Moss Treatment",
+        title: "Stain & Spot Treatment",
         description:
-          "We treat and remove green algae, black mould, and moss build-up on roof panels and frames.",
-      },
-      {
-        icon: sunIcon,
-        title: "Conservatory Gutters Cleared",
-        description:
-          "Often forgotten — we clear the small gutters around your conservatory roof to stop overflow and stains down the glass.",
+          "Pre-treatment of red wine, coffee, tea, ink, pet stains, and traffic lanes — the worst marks are tackled before the main clean for the best possible result.",
       },
       {
         icon: shieldIcon,
-        title: "Safe For All Roof Types",
+        title: "Pet & Family Safe",
         description:
-          "Polycarbonate, glass, or hybrid roofs — we use the right brushes and pressure for your roof type, with zero risk of scratching.",
-      },
-      {
-        icon: homeIcon,
-        title: "Internal Glass Available",
-        description:
-          "Ask us to clean the inside of the glass at the same time for a perfectly bright, dust-free finish.",
-      },
-      {
-        icon: checkIcon,
-        title: "Brighter, Warmer Room",
-        description:
-          "A clean conservatory roof transforms how the room looks and feels — more daylight, no green tinge, no streaky shadows.",
-      },
-    ],
-    faqs: [
-      {
-        question: "Can you clean a polycarbonate conservatory roof?",
-        answer:
-          "Yes — we use soft brushes and low-pressure pure water that are completely safe for polycarbonate, glass, and hybrid roofs.",
-      },
-      {
-        question: "How long does a conservatory clean take?",
-        answer:
-          "Most standard conservatories take 1-2 hours including the roof, frames, glass, and gutters.",
-      },
-      {
-        question: "How often should the roof be cleaned?",
-        answer:
-          "We recommend an annual clean for conservatory roofs, ideally before spring, to remove the winter build-up of moss and algae.",
-      },
-    ],
-  },
-
-  "solar-panel-cleaning": {
-    title: "Solar Panel Cleaning",
-    description:
-      "Restore lost efficiency by removing dirt, pollen, and bird droppings from your solar panels with our specialist pure-water clean.",
-    heroSubtitle: "Restore Lost Energy. Boost Output.",
-    pricing: "Starting from £4 per panel",
-    features: [
-      {
-        icon: sunIcon,
-        title: "Restores Energy Output",
-        description:
-          "Dirty panels can lose up to 25% of their output. A regular clean keeps your system generating at its best.",
-      },
-      {
-        icon: dropIcon,
-        title: "Pure-Water Reach & Wash",
-        description:
-          "100% de-ionised water and soft brushes safely lift dirt, pollen, and bird droppings — no scratches, no streaks.",
-      },
-      {
-        icon: shieldIcon,
-        title: "No Roof Access Needed",
-        description:
-          "We clean from the ground using extendable poles, so no one walks on your roof and no panels are at risk of damage.",
-      },
-      {
-        icon: homeIcon,
-        title: "Domestic & Commercial",
-        description:
-          "From small domestic arrays to large commercial installations — we have the equipment for any size system.",
+          "Non-toxic, hypoallergenic solutions that are safe for children and pets to be on the carpet again as soon as it's dry.",
       },
       {
         icon: clockIcon,
-        title: "Annual Cleaning Plans",
+        title: "Dry Within 2-4 Hours",
         description:
-          "Discounted rates for yearly or twice-yearly cleans to maintain peak performance and protect your investment.",
+          "Powerful extraction removes up to 95% of the moisture, so carpets are touch-dry in a couple of hours and fully dry the same day.",
+      },
+      {
+        icon: homeIcon,
+        title: "Stairs, Landings & Rugs",
+        description:
+          "We clean stairs, landings, hallways, and free-standing rugs at the same visit — whole-house carpet refresh in a single appointment.",
       },
       {
         icon: checkIcon,
-        title: "Fully Insured",
+        title: "Odour Neutralised",
         description:
-          "£5m public liability cover with method statements available for commercial sites on request.",
+          "Dedicated deodorising treatments break down odours from pets, smoke, and damp at the source — not just masking them.",
       },
     ],
     faqs: [
       {
-        question: "Will cleaning improve my solar output?",
+        question: "How long do carpets take to dry?",
         answer:
-          "Yes — independent studies show that dirty panels can lose between 5% and 25% of output. Regular cleaning typically pays for itself many times over in extra generation.",
+          "Most carpets are touch-dry within 2-4 hours and completely dry the same day. We'll open windows and use air movers where needed to speed things up.",
       },
       {
-        question: "How often should solar panels be cleaned?",
+        question: "Will old stains come out?",
         answer:
-          "Annual cleaning is suitable for most domestic installations. Properties near trees, farms, or busy roads may benefit from twice-yearly cleans.",
+          "Most stains — including red wine, coffee, tea, and pet accidents — can be significantly reduced or fully removed. We'll always test in a discreet area first and give you an honest expectation before we start.",
       },
       {
-        question: "Do you use chemicals on the panels?",
+        question: "Do I need to move my furniture?",
         answer:
-          "No — pure de-ionised water only. Detergents and chemicals can leave residue that attracts dirt and risks invalidating panel warranties.",
+          "We'll happily move lighter furniture as part of the clean. Heavier items like wardrobes and beds we work around — just let us know in advance so we can plan the room layout.",
       },
     ],
   },
 
-  "fascia-soffit-cleaning": {
-    title: "Fascia & Soffit Cleaning",
+  "upholstery-cleaning": {
+    title: "Upholstery Cleaning",
     description:
-      "Bring tired, dirty uPVC fascias, soffits, and cladding back to life with our gentle, ladder-free exterior cleaning system.",
-    heroSubtitle: "Like-New uPVC. No Ladders.",
-    pricing: "Starting from £75",
+      "Deep cleaning for sofas, armchairs, dining chairs, and mattresses that lifts ground-in dirt, body oils, and odours from fabric and fibres.",
+    heroSubtitle: "Refresh Your Sofa. Restore Your Home.",
+    pricing: "Starting from £35 per seat",
     features: [
       {
-        icon: sparkleIcon,
-        title: "Removes Green Algae",
+        icon: dropIcon,
+        title: "Fabric-Safe Extraction",
         description:
-          "Effective treatment for green algae, black streaks, and oxidation marks on white uPVC fascias and soffits.",
+          "Low-moisture hot-water extraction tuned for upholstery — deep clean without saturating cushions, frames, or foam.",
+      },
+      {
+        icon: sparkleIcon,
+        title: "Sofas, Chairs & Mattresses",
+        description:
+          "From 2-seater sofas and recliners through to dining chairs and double mattresses — we clean almost any fabric upholstery.",
       },
       {
         icon: shieldIcon,
-        title: "Safe For All uPVC",
+        title: "Fabric Test First",
         description:
-          "Our specialist cleaning solutions are non-abrasive and safe for all colours and finishes of uPVC trim.",
-      },
-      {
-        icon: homeIcon,
-        title: "Cladding & Bargeboards",
-        description:
-          "Full exterior clean including bargeboards, fascias, soffits, and uPVC cladding for a complete refresh.",
-      },
-      {
-        icon: dropIcon,
-        title: "Pure-Water Rinse",
-        description:
-          "We finish with a pure-water rinse so there's no residue, no streaks, and no chemical run-off to harm plants.",
-      },
-      {
-        icon: sunIcon,
-        title: "Transforms Kerb Appeal",
-        description:
-          "Clean white uPVC instantly lifts the look of your home — perfect before selling, painting, or just to feel proud of your house again.",
-      },
-      {
-        icon: checkIcon,
-        title: "Combine With Other Services",
-        description:
-          "Bundle with a window clean or gutter clear and save — book a full exterior package for the best price.",
-      },
-    ],
-    faqs: [
-      {
-        question: "Will the cleaning solution damage my plants?",
-        answer:
-          "No — we wet down nearby planting beforehand and finish with a pure-water rinse. The solutions we use break down quickly and won't harm plants.",
-      },
-      {
-        question: "Can you clean cream or coloured uPVC?",
-        answer:
-          "Yes — we use products and techniques that are safe for all uPVC colours, including cream, anthracite grey, and woodgrain effect.",
-      },
-      {
-        question: "How long does it last?",
-        answer:
-          "A proper clean typically lasts 2-3 years before re-cleaning is needed, depending on local environment and the amount of overhanging tree cover.",
-      },
-    ],
-  },
-
-  "commercial-window-cleaning": {
-    title: "Commercial Window Cleaning",
-    description:
-      "Reliable, scheduled window cleaning for offices, shopfronts, pubs, and commercial premises across the North West.",
-    heroSubtitle: "Spotless Premises. Reliable Service.",
-    pricing: "Price on Application",
-    features: [
-      {
-        icon: buildingIcon,
-        title: "Offices & Business Parks",
-        description:
-          "Internal and external window cleaning for offices of all sizes, from small suites to multi-floor business parks.",
-      },
-      {
-        icon: homeIcon,
-        title: "Shopfronts & Retail",
-        description:
-          "Keep your shopfront looking immaculate for customers with daily, weekly, or fortnightly cleans tailored to footfall.",
+          "We patch-test every fabric in a hidden area before starting, so there's zero risk of bleeding, shrinkage, or watermarks.",
       },
       {
         icon: clockIcon,
-        title: "Out-of-Hours Service",
+        title: "Dry Same Day",
         description:
-          "Early morning, evening, and weekend cleans available so there's no disruption to your business or customers.",
+          "Specialist upholstery wands extract more water than they put in, so sofas and chairs are typically dry within 4-6 hours.",
       },
       {
-        icon: shieldIcon,
-        title: "Fully Insured & RAMS",
+        icon: homeIcon,
+        title: "Pet Hair & Dander Removed",
         description:
-          "£5m public liability cover with risk assessments and method statements provided for every commercial site.",
-      },
-      {
-        icon: dropIcon,
-        title: "Up to 65ft Reach",
-        description:
-          "Pure-water reach-and-wash systems handle most commercial buildings without scaffolding, cherry-pickers, or rope access.",
+          "Pre-vacuum and groom treatments lift embedded pet hair, dander, and dust mites that a domestic vacuum can't reach.",
       },
       {
         icon: checkIcon,
-        title: "Single Invoice Contracts",
+        title: "Odours Neutralised",
         description:
-          "Simple monthly invoicing with one point of contact, regardless of how many sites or visits per month.",
+          "Specialist deodorisers tackle stubborn smells from pets, smoke, food, and sweat — leaving your furniture fresh, not perfumed.",
       },
     ],
     faqs: [
       {
-        question: "Do you do one-off commercial cleans?",
+        question: "How long does a sofa take to clean?",
         answer:
-          "Yes — we're happy to provide one-off cleans for office moves, end-of-lease, or seasonal refreshes. Contact us for a quick quote.",
+          "A 3-seater sofa typically takes 30-45 minutes including the cushions and arms. Larger corner units take around an hour.",
       },
       {
-        question: "Can you provide RAMS and insurance documentation?",
+        question: "Can you clean leather?",
         answer:
-          "Yes — we provide full risk assessments, method statements, and our £5m public liability insurance certificate before starting any commercial contract.",
+          "We specialise in fabric upholstery. For leather sofas we recommend a dedicated leather conditioner — happy to point you toward a trusted specialist.",
       },
       {
-        question: "What about high-rise buildings?",
+        question: "How long until it's safe to sit on again?",
         answer:
-          "Our reach-and-wash poles handle buildings up to roughly 65ft. For taller buildings we work with vetted partners for rope access or cherry-picker work.",
+          "We recommend allowing 4-6 hours before sitting on the upholstery, and 24 hours before replacing cushions or covers for the very best finish.",
       },
     ],
   },
 
-  "pressure-washing": {
-    title: "Pressure Washing",
+  "bin-cleaning": {
+    title: "Wheelie Bin Cleaning",
     description:
-      "Professional pressure washing to restore driveways, patios, paths, and decking — removing years of dirt, moss, and algae in a single visit.",
-    heroSubtitle: "Restore Your Outdoor Spaces.",
-    pricing: "Starting from £80",
+      "Hot-pressure wheelie bin cleaning that kills bacteria, lifts trapped grime, and leaves your bins smelling fresh — emptied or full, inside and out.",
+    heroSubtitle: "Fresh Bins. No More Smells.",
+    pricing: "Starting from £6 per bin",
     features: [
       {
         icon: dropIcon,
-        title: "Driveways & Block Paving",
+        title: "Hot-Pressure Jet Wash",
         description:
-          "Powerful flat-surface cleaners lift dirt and weeds from block paving, concrete, and tarmac driveways.",
-      },
-      {
-        icon: homeIcon,
-        title: "Patios & Paths",
-        description:
-          "Restore patios, garden paths, and pavers to their original colour with our pressure washing and detergent treatment.",
-      },
-      {
-        icon: sparkleIcon,
-        title: "Decking Refresh",
-        description:
-          "Gentle pressure cleaning safely removes algae and grey weathering from timber and composite decking.",
+          "Specialist truck-mounted system blasts the inside of each bin with hot water at high pressure — lifting stuck-on waste and grime.",
       },
       {
         icon: shieldIcon,
-        title: "Optional Re-Sanding",
+        title: "Kills Bacteria & Germs",
         description:
-          "Kiln-dried sand brushed back into the joints after the clean to lock pavers in place and slow weed regrowth.",
+          "Eco-friendly disinfectant kills 99.9% of bacteria, viruses, and germs that build up from rotting food and waste.",
       },
       {
-        icon: sunIcon,
-        title: "Sealing Available",
+        icon: sparkleIcon,
+        title: "Long-Lasting Deodoriser",
         description:
-          "Optional sealant application to protect cleaned surfaces from staining, weeds, and weather damage for years to come.",
+          "A fragranced post-wash treatment leaves bins smelling fresh for weeks — no more lifting the lid and recoiling.",
+      },
+      {
+        icon: clockIcon,
+        title: "Regular Cleaning Rounds",
+        description:
+          "Monthly, quarterly, or one-off cleans timed for the day your bins are emptied — we do the work while they're outside.",
+      },
+      {
+        icon: homeIcon,
+        title: "Domestic & Commercial Bins",
+        description:
+          "All UK wheelie bin sizes catered for, from 140L household bins through to 1100L commercial Eurobins.",
       },
       {
         icon: checkIcon,
-        title: "Tidy & Insured",
+        title: "Eco-Friendly Wastewater",
         description:
-          "We sweep and rinse away all debris and silt at the end of the job — fully insured for complete peace of mind.",
+          "All dirty water is captured on board and disposed of responsibly — nothing goes down the drains or into your garden.",
       },
     ],
     faqs: [
       {
-        question: "Will pressure washing damage my paving?",
+        question: "Do my bins need to be empty?",
         answer:
-          "No — when done correctly with the right pressure and equipment, it's completely safe. We adjust pressure to suit your surface, whether that's concrete, natural stone, or timber decking.",
+          "Ideally yes — we clean on bin day, just after collection, while the bin is empty. If it's still got rubbish in it we'll either wait or rebook for the following collection.",
       },
       {
-        question: "How long does a typical driveway take?",
+        question: "How often should I have them cleaned?",
         answer:
-          "Most driveways take 2-4 hours depending on size, condition, and whether you opt for re-sanding or sealing afterwards.",
+          "Monthly works well for general bins and food waste containers. Quarterly is plenty for recycling bins. We'll recommend a frequency that suits your household.",
       },
       {
-        question: "Do I need to do anything to prepare?",
+        question: "What happens to the dirty water?",
         answer:
-          "Just move any cars, planters, or furniture off the area to be cleaned. We'll handle the rest, including covering any sensitive plants nearby.",
+          "All wastewater is captured in a sealed tank on the truck and disposed of at a licensed waste facility — nothing goes into drains, gutters, or your garden.",
       },
     ],
   },
+
 };
 
 const whyChooseUsPoints = [
   { title: "Fully Insured", description: "£5m public liability cover for complete peace of mind." },
   { title: "DBS Checked", description: "All our cleaners are DBS checked for your security." },
-  { title: "Pure-Water System", description: "Streak-free finish with zero chemical residue." },
+  { title: "Professional Equipment", description: "Commercial-grade kit for windows, carpets, upholstery and bins." },
   { title: "No Hidden Fees", description: "Transparent pricing with no surprises on the day." },
-  { title: "Streak-Free Guarantee", description: "Spot an issue? We'll come back and re-clean for free." },
+  { title: "Satisfaction Guarantee", description: "Spot an issue? We'll come back and put it right for free." },
   { title: "5-Star Rated", description: "Trusted by thousands of happy customers across the region." },
 ];
 
@@ -807,7 +607,7 @@ export default function ServicePage({ slug }: { slug: string }) {
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
             <AnimatedSection>
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Ready for Sparkling {service.title}?
+                Ready to Book Your {service.title}?
               </h2>
               <p className="mt-4 text-lg text-primary-100">
                 Get a free, no-obligation quote today. We respond within 2 hours.

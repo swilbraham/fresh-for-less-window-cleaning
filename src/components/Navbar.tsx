@@ -55,7 +55,7 @@ export default function Navbar({ onQuoteClick }: { onQuoteClick: () => void }) {
                   scrolled ? "text-primary-600" : "text-primary-300"
                 }`}
               >
-                Window Cleaning
+                Cleaning Services
               </span>
             </div>
           </a>

@@ -3,20 +3,20 @@ import Link from "next/link";
 import { areas, getPostcodeForArea } from "@/data/areas";
 
 export const metadata: Metadata = {
-  title: "Areas We Cover | Window Cleaning Wirral, Liverpool, Chester & North Wales",
+  title: "Areas We Cover | Window, Carpet, Upholstery & Bin Cleaning Across the North West",
   description:
-    "Fresh For Less Window Cleaning serves 100+ towns and villages across Wirral, Liverpool, Chester, Warrington, Runcorn and North Wales. Find your local window cleaner.",
+    "Fresh For Less serves 100+ towns and villages across Wirral, Liverpool, Chester, Warrington, Runcorn and North Wales — window, carpet, upholstery and wheelie bin cleaning. Find your area below.",
   alternates: {
     canonical: "https://www.freshforlesswindowcleaning.co.uk/areas",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "Fresh For Less Window Cleaning",
+    siteName: "Fresh For Less Cleaning",
     url: "https://www.freshforlesswindowcleaning.co.uk/areas",
-    title: "Areas We Cover | Fresh For Less Window Cleaning",
+    title: "Areas We Cover | Fresh For Less Cleaning",
     description:
-      "Local window cleaning across Wirral, Liverpool, Chester, Warrington, Runcorn and North Wales. Find your area below.",
+      "Window, carpet, upholstery and bin cleaning across Wirral, Liverpool, Chester, Warrington, Runcorn and North Wales. Find your area below.",
   },
 };
 
@@ -31,12 +31,12 @@ export default function AreasIndexPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Areas served by Fresh For Less Window Cleaning",
+    name: "Areas served by Fresh For Less Cleaning",
     itemListElement: areas.map((a, i) => ({
       "@type": "ListItem",
       position: i + 1,
       url: `https://www.freshforlesswindowcleaning.co.uk/areas/${a.slug}`,
-      name: `Window Cleaning ${a.name}`,
+      name: `Cleaning Services in ${a.name}`,
     })),
   };
 
@@ -82,7 +82,7 @@ export default function AreasIndexPage() {
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
-              Fresh For Less provides professional pure-water window cleaning to {areas.length}+ towns and villages
+              Fresh For Less provides window, carpet, upholstery and wheelie bin cleaning to {areas.length}+ towns and villages
               across Wirral, Liverpool, Chester, Warrington, Runcorn and North Wales. Find your local area below.
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function AreasIndexPage() {
             {grouped.map(({ region, list }) => (
               <div key={region} className="mb-14 last:mb-0">
                 <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
-                  Window Cleaning in {region}
+                  Cleaning Services in {region}
                 </h2>
                 <p className="mt-2 text-sm text-slate-500">{list.length} locations covered</p>
                 <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">

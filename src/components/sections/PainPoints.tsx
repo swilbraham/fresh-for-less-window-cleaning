@@ -11,37 +11,37 @@ const painPoints = [
     ),
     title: "Streaks, Smears & Watermarks",
     description:
-      "You spend hours polishing the glass only for the sun to highlight every streak and smear. DIY sprays and squeegees just push the dirt around.",
+      "You spend hours polishing the glass only for the sun to highlight every streak. DIY sprays and squeegees just push the dirt around — and ladders aren't worth the risk.",
   },
   {
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75 7.409 8.66a2.25 2.25 0 0 1 3.182 0l2.122 2.121a2.25 2.25 0 0 0 3.182 0l4.682-4.682M21.75 15.75V5.25H11.25" />
       </svg>
     ),
-    title: "No Time For Ladders & Buckets",
+    title: "Stained, Tired Carpets",
     description:
-      "Between work, family, and weekends, who wants to spend a Saturday balancing on a ladder cleaning windows that look dirty again within a fortnight?",
+      "Hoovering only reaches the surface. Years of foot traffic, spills, and pet accidents build up deep in the pile — and a hire-it-yourself machine just wets it back up.",
   },
   {
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
       </svg>
     ),
-    title: "Dangerous Heights & Awkward Access",
+    title: "Sofas That Smell Their Age",
     description:
-      "Upstairs windows, conservatory roofs, and tricky extensions are accidents waiting to happen. One slip on a wobbly ladder isn't worth the risk.",
+      "Your favourite armchair has soaked up years of pets, takeaways, and spilled tea. Cushions can't go in the washing machine — and replacing the sofa is a small fortune.",
   },
   {
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
       </svg>
     ),
-    title: "Unreliable Window Cleaners",
+    title: "Bins That Make You Recoil",
     description:
-      "Cleaners who don't turn up, leave gates open, or hike prices without warning. You deserve a dependable team that shows up when they say they will.",
+      "Hot summer days, rotting food, and last week's nappies — the smell hits you every time you lift the lid. A hose at the kerb just doesn't cut through it.",
   },
 ];
 
@@ -57,10 +57,10 @@ export default function PainPoints() {
             Sound Familiar?
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Grimy Windows Are More Than Just an Eyesore
+            The Jobs You Keep Putting Off
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
-            They block natural light, dull your kerb appeal, and make the whole house feel tired — every time you look out the window.
+            Dirty windows, tired carpets, smelly sofas, and grim bins — they all chip away at how your home feels. We tackle the lot, so you don't have to.
           </p>
         </AnimatedSection>
 

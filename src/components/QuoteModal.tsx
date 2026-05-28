@@ -181,14 +181,11 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
                       className="w-full rounded-lg border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-slate-900 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 focus:outline-none"
                     >
                       <option value="">Select a service...</option>
-                      <option>Regular Window Cleaning</option>
-                      <option>One-Off Window Clean</option>
-                      <option>Gutter Clearing</option>
-                      <option>Conservatory Cleaning</option>
-                      <option>Solar Panel Cleaning</option>
-                      <option>Fascia &amp; Soffit Cleaning</option>
-                      <option>Pressure Washing</option>
-                      <option>Commercial Window Cleaning</option>
+                      <option>Window Cleaning</option>
+                      <option>Carpet Cleaning</option>
+                      <option>Upholstery Cleaning</option>
+                      <option>Wheelie Bin Cleaning</option>
+                      <option>Multiple Services (Bundle)</option>
                     </select>
                   </div>
                   <div>

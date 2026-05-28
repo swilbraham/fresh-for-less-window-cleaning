@@ -9,17 +9,35 @@ const benefits = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z" />
       </svg>
     ),
-    title: "Pure-Water Reach & Wash",
-    description: "Our advanced water-fed pole system uses 100% pure, de-ionised water to clean glass and frames up to 65ft — leaving a spotless, streak-free finish every time.",
+    title: "Pure-Water Window Cleaning",
+    description: "Reach-and-wash poles use 100% de-ionised pure water to clean glass, frames, and sills up to 65ft — streak-free, ladder-free, every visit.",
   },
   {
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75 7.409 8.66a2.25 2.25 0 0 1 3.182 0l2.122 2.121a2.25 2.25 0 0 0 3.182 0l4.682-4.682M21.75 15.75V5.25H11.25" />
       </svg>
     ),
-    title: "No Harsh Chemicals",
-    description: "Pure water alone lifts dirt and grime — no detergents, no chemical residue, and no smears. Safe for your family, your pets, and the plants in your borders.",
+    title: "Deep Carpet Cleaning",
+    description: "Industrial hot-water extraction lifts ground-in dirt, stains, and allergens from carpets, stairs, and rugs — touch-dry within hours, not days.",
+  },
+  {
+    icon: (
+      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
+      </svg>
+    ),
+    title: "Upholstery Refresh",
+    description: "Fabric-safe extraction for sofas, armchairs, dining chairs, and mattresses — lifting body oils, pet hair, and odours that domestic vacuums leave behind.",
+  },
+  {
+    icon: (
+      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+      </svg>
+    ),
+    title: "Wheelie Bin Cleaning",
+    description: "Hot-pressure jet wash with eco-friendly disinfectant kills 99.9% of bacteria, lifts trapped grime, and leaves bins smelling fresh for weeks.",
   },
   {
     icon: (
@@ -28,16 +46,7 @@ const benefits = [
       </svg>
     ),
     title: "Transparent, Affordable Pricing",
-    description: "No hidden fees, no surprise charges. We quote upfront and our prices are typically 20-30% less than other local cleaners — with a streak-free guarantee.",
-  },
-  {
-    icon: (
-      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-      </svg>
-    ),
-    title: "Frames, Sills & Doors Included",
-    description: "We don't just do the glass. Every clean includes uPVC frames, sills, and front doors as standard — for a whole-window finish you can really see.",
+    description: "Upfront quotes with no hidden fees, no surprise charges, and no pressure. Bundle services and save — full-house refreshes from a single visit.",
   },
   {
     icon: (
@@ -45,17 +54,8 @@ const benefits = [
         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
       </svg>
     ),
-    title: "Streak-Free Guarantee",
-    description: "If you spot a streak, smear, or missed window within 48 hours, we'll come back and re-clean at no extra charge. Your happiness is our promise.",
-  },
-  {
-    icon: (
-      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" />
-      </svg>
-    ),
-    title: "Residential & Commercial",
-    description: "From terraced houses and bungalows to shopfronts and offices, we handle it all. Regular 4-weekly rounds or one-off cleans to suit your routine.",
+    title: "Satisfaction Guarantee",
+    description: "If you're not happy with any clean, we'll come straight back and put it right — no quibble, no extra charge. Your peace of mind is built in.",
   },
 ];
 
@@ -68,14 +68,14 @@ export default function Benefits() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center rounded-full bg-primary-50 px-3 py-1 text-xs font-semibold text-primary-700 ring-1 ring-primary-100">
-            The Fresh For Less Difference
+            Four Services. One Trusted Team.
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
             Professional Results. <br className="hidden sm:block" />
             Family-Friendly Prices.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
-            We combine professional water-fed pole equipment with pure de-ionised water to deliver a streak-free finish you can see — inside and out.
+            Windows, carpets, upholstery, and wheelie bins — all covered by the same trusted local team, with commercial-grade kit and honest, upfront prices.
           </p>
         </AnimatedSection>
 

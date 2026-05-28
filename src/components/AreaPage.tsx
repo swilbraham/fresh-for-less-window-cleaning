@@ -21,47 +21,29 @@ const services = [
     ),
   },
   {
-    title: "Gutter Clearing",
-    description: "Powerful vacuum-pole gutter clearance from ground level — no ladders, no mess, no fuss.",
+    title: "Carpet Cleaning",
+    description: "Hot-water extraction lifts stains, dirt, and allergens — carpets dry within hours.",
     icon: (
       <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75 7.409 8.66a2.25 2.25 0 0 1 3.182 0l2.122 2.121a2.25 2.25 0 0 0 3.182 0l4.682-4.682M21.75 15.75V5.25H11.25" />
       </svg>
     ),
   },
   {
-    title: "Conservatory Cleaning",
-    description: "Roof, glass, and frames thoroughly cleaned to let the light back into your conservatory.",
+    title: "Upholstery Cleaning",
+    description: "Deep-clean sofas, armchairs, and mattresses — odours neutralised, fabrics refreshed.",
     icon: (
       <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 0 1 0 1.953l-7.108 4.062a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
       </svg>
     ),
   },
   {
-    title: "Solar Panel Cleaning",
-    description: "Restore lost efficiency by removing dirt and bird droppings from your solar panels.",
+    title: "Wheelie Bin Cleaning",
+    description: "Hot-pressure jet wash that kills bacteria and leaves bins smelling fresh for weeks.",
     icon: (
       <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Commercial Window Cleaning",
-    description: "Reliable, scheduled window cleaning for offices, shopfronts, pubs, and commercial premises.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
-      </svg>
-    ),
-  },
-  {
-    title: "Fascia & Soffit Cleaning",
-    description: "Bring tired uPVC fascias and soffits back to life with our gentle exterior cleaning system.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25a2.25 2.25 0 0 1-2.25-2.25v-2.25Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
       </svg>
     ),
   },
@@ -146,8 +128,8 @@ export default function AreaPage({ slug }: { slug: string }) {
     "@type": "LocalBusiness",
     additionalType: "https://schema.org/ProfessionalService",
     "@id": `https://www.freshforlesswindowcleaning.co.uk/areas/${area.slug}#business`,
-    name: `Fresh For Less Window Cleaning — ${area.name}`,
-    description: `Professional pure-water window cleaning in ${area.name}, ${county}. Frames, sills & doors included. Streak-free guarantee, no-obligation quotes.`,
+    name: `Fresh For Less Cleaning — ${area.name}`,
+    description: `Window, carpet, upholstery and wheelie bin cleaning in ${area.name}, ${county}. Professional results, honest prices, satisfaction guaranteed.`,
     telephone: "0330 043 4811",
     email: "info@freshforlesswindowcleaning.co.uk",
     url: `https://www.freshforlesswindowcleaning.co.uk/areas/${area.slug}`,
@@ -189,10 +171,9 @@ export default function AreaPage({ slug }: { slug: string }) {
       name: `Cleaning Services in ${area.name}`,
       itemListElement: [
         { "@type": "Offer", itemOffered: { "@type": "Service", name: `Window Cleaning in ${area.name}` } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Gutter Clearing in ${area.name}` } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Conservatory Cleaning in ${area.name}` } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Solar Panel Cleaning in ${area.name}` } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Commercial Window Cleaning in ${area.name}` } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Carpet Cleaning in ${area.name}` } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Upholstery Cleaning in ${area.name}` } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: `Wheelie Bin Cleaning in ${area.name}` } },
       ],
     },
   };
@@ -209,20 +190,20 @@ export default function AreaPage({ slug }: { slug: string }) {
 
   const localFaqs = [
     {
-      q: `How much does window cleaning cost in ${area.name}?`,
-      a: `Our window cleaning prices in ${area.name} start from £12 per visit for a small terraced house and £18-£25 for typical semi-detached and detached homes. We give a fixed, no-obligation quote before we start — no hidden fees.`,
+      q: `What cleaning services do you offer in ${area.name}?`,
+      a: `In ${area.name} we cover four core services: pure-water window cleaning, hot-water-extraction carpet cleaning, deep upholstery cleaning for sofas and mattresses, and hot-pressure wheelie bin cleaning. You can book one service or bundle several in a single visit and save.`,
+    },
+    {
+      q: `How much do your services cost in ${area.name}?`,
+      a: `Window cleaning in ${area.name} starts from £12 per visit, carpet cleaning from £35 per room, upholstery from £35 per seat, and wheelie bin cleaning from £6 per bin. We always give a fixed, no-obligation quote before we start — no hidden fees.`,
     },
     {
       q: `Do you cover ${postcode || area.name} postcodes?`,
-      a: `Yes — we cover all ${postcode ? `${postcode} postcodes and the wider ` : ""}${area.name} area, including ${nearbyAreaData.slice(0, 3).map((a) => a.name).join(", ") || area.region}. We run regular 4-weekly and 8-weekly rounds with first-visit appointments usually available within a week.`,
+      a: `Yes — we cover all ${postcode ? `${postcode} postcodes and the wider ` : ""}${area.name} area, including ${nearbyAreaData.slice(0, 3).map((a) => a.name).join(", ") || area.region}. First-visit appointments are usually available within a week.`,
     },
     {
-      q: `Do you clean upstairs windows in ${area.name} without ladders?`,
-      a: `Yes — we use a pure-water reach-and-wash system with carbon-fibre poles, so we can safely clean upstairs windows, conservatory roofs, and tricky access points from the ground in every ${area.name} property.`,
-    },
-    {
-      q: `Will my windows be left wet or streaky in ${area.name}?`,
-      a: `Our pure de-ionised water dries naturally without leaving spots or streaks — usually within 30-60 minutes. If you spot a streak or missed window within 48 hours we'll come back and re-clean at no extra charge.`,
+      q: `Are your cleaning products safe for pets and children in ${area.name}?`,
+      a: `Yes — every product we use across windows, carpets, upholstery, and bin cleaning is non-toxic and pet-safe. Carpets and sofas are safe to use again as soon as they're dry.`,
     },
   ];
 
@@ -320,7 +301,7 @@ export default function AreaPage({ slug }: { slug: string }) {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl"
             >
-              Window Cleaning in{" "}
+              Cleaning Services in{" "}
               <span className="bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
                 {area.name}
               </span>
@@ -439,7 +420,7 @@ export default function AreaPage({ slug }: { slug: string }) {
                   Nearby Areas We Serve
                 </h2>
                 <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-                  We also provide professional window cleaning in these areas near {area.name}.
+                  We also provide window, carpet, upholstery and bin cleaning in these areas near {area.name}.
                 </p>
               </div>
             </AnimatedSection>
@@ -491,7 +472,7 @@ export default function AreaPage({ slug }: { slug: string }) {
                   Local FAQ
                 </span>
                 <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-                  Window Cleaning in {area.name} — Common Questions
+                  Cleaning Services in {area.name} — Common Questions
                 </h2>
                 <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
                   Honest answers to the questions our {area.name} customers ask most.

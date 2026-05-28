@@ -14,12 +14,12 @@ export default function Footer() {
               <div>
                 <span className="text-lg font-bold text-white">Fresh For Less</span>
                 <span className="block text-[10px] font-medium uppercase tracking-widest text-primary-400">
-                  Window Cleaning
+                  Cleaning Services
                 </span>
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
-              Streak-free window cleaning, gutter clearance, and exterior care that leaves your home sparkling at prices you'll love.
+              Window, carpet, upholstery and wheelie bin cleaning that leaves your home fresh from the outside in — at prices you'll love.
             </p>
             {/* Trust badges */}
             <div className="mt-5 flex flex-wrap gap-2">
@@ -40,12 +40,9 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               {[
                 { name: "Window Cleaning", slug: "window-cleaning" },
-                { name: "Gutter Clearing", slug: "gutter-clearing" },
-                { name: "Conservatory Cleaning", slug: "conservatory-cleaning" },
-                { name: "Solar Panel Cleaning", slug: "solar-panel-cleaning" },
-                { name: "Fascia & Soffit Cleaning", slug: "fascia-soffit-cleaning" },
-                { name: "Commercial Window Cleaning", slug: "commercial-window-cleaning" },
-                { name: "Pressure Washing", slug: "pressure-washing" },
+                { name: "Carpet Cleaning", slug: "carpet-cleaning" },
+                { name: "Upholstery Cleaning", slug: "upholstery-cleaning" },
+                { name: "Wheelie Bin Cleaning", slug: "bin-cleaning" },
               ].map((s) => (
                 <li key={s.slug}>
                   <a href={`/services/${s.slug}`} className="text-sm text-slate-400 hover:text-white transition-colors">{s.name}</a>
@@ -115,7 +112,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-slate-800 pt-8 text-center">
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Fresh For Less Window Cleaning. All rights reserved.
+            &copy; {new Date().getFullYear()} Fresh For Less Cleaning Services. All rights reserved.
           </p>
         </div>
       </div>

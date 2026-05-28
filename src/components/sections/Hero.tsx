@@ -61,12 +61,12 @@ export default function Hero({ onQuoteClick }: { onQuoteClick: () => void }) {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
             >
-              Windows That{" "}
+              Windows, Carpets,{" "}
               <span className="bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                Sparkle
+                Sofas & Bins
               </span>
               <br />
-              Without the Sky-High Price
+              Cleaned For Less
             </motion.h1>
 
             {/* Subheadline */}
@@ -76,7 +76,7 @@ export default function Hero({ onQuoteClick }: { onQuoteClick: () => void }) {
               transition={{ duration: 0.6, delay: 0.45 }}
               className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400 sm:text-xl"
             >
-              Pure-water reach-and-wash window cleaning that leaves glass, frames, and sills spotless — no streaks, no smears, no ladders against your walls. Affordable rates, guaranteed results.
+              Specialist window, carpet, upholstery, and wheelie bin cleaning across the North West. Professional kit, honest prices, and a finish you can really see — booked in just a few clicks.
             </motion.p>
 
             {/* CTAs */}
@@ -114,7 +114,7 @@ export default function Hero({ onQuoteClick }: { onQuoteClick: () => void }) {
               {[
                 { value: "4.9/5", label: "Customer Rating" },
                 { value: "2,000+", label: "Homes Cleaned" },
-                { value: "100%", label: "Streak-Free Guarantee" },
+                { value: "100%", label: "Satisfaction Guarantee" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p className="text-2xl font-bold text-white sm:text-3xl">{stat.value}</p>

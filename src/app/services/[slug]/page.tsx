@@ -10,46 +10,25 @@ const services = [
       "Professional pure-water window cleaning from £12 per clean. Streak-free finish, frames and sills included, regular 4-weekly rounds. Free quotes. Call 0330 043 4811.",
   },
   {
-    slug: "gutter-clearing",
-    title: "Gutter Clearing",
-    metaTitle: "Gutter Clearing & Cleaning | Fresh For Less",
+    slug: "carpet-cleaning",
+    title: "Carpet Cleaning",
+    metaTitle: "Professional Carpet Cleaning | Fresh For Less",
     metaDescription:
-      "Vacuum-pole gutter clearing from £55. Ladder-free, no mess, before-and-after photos. Free quotes. Call 0330 043 4811.",
+      "Hot-water extraction carpet cleaning from £35 per room. Stains lifted, odours removed, carpets dry in hours. Free quotes. Call 0330 043 4811.",
   },
   {
-    slug: "conservatory-cleaning",
-    title: "Conservatory Cleaning",
-    metaTitle: "Conservatory Roof & Glass Cleaning | Fresh For Less",
+    slug: "upholstery-cleaning",
+    title: "Upholstery Cleaning",
+    metaTitle: "Sofa & Upholstery Cleaning | Fresh For Less",
     metaDescription:
-      "Conservatory cleaning from £45. Roof, glass, frames and gutters cleaned for a brighter conservatory. Free quotes. Call 0330 043 4811.",
+      "Deep upholstery cleaning for sofas, armchairs and mattresses from £35. Fabric-safe extraction that lifts dirt, stains and odours. Free quotes. Call 0330 043 4811.",
   },
   {
-    slug: "solar-panel-cleaning",
-    title: "Solar Panel Cleaning",
-    metaTitle: "Solar Panel Cleaning — Restore Efficiency | Fresh For Less",
+    slug: "bin-cleaning",
+    title: "Wheelie Bin Cleaning",
+    metaTitle: "Wheelie Bin Cleaning & Deodorising | Fresh For Less",
     metaDescription:
-      "Professional solar panel cleaning from £4 per panel. Pure-water clean to restore energy output. Free quotes. Call 0330 043 4811.",
-  },
-  {
-    slug: "fascia-soffit-cleaning",
-    title: "Fascia & Soffit Cleaning",
-    metaTitle: "uPVC Fascia & Soffit Cleaning | Fresh For Less",
-    metaDescription:
-      "Fascia and soffit cleaning from £75. Bring tired uPVC back to life with our gentle exterior cleaning system. Free quotes. Call 0330 043 4811.",
-  },
-  {
-    slug: "commercial-window-cleaning",
-    title: "Commercial Window Cleaning",
-    metaTitle: "Commercial Window Cleaning — Offices & Retail | Fresh For Less",
-    metaDescription:
-      "Professional commercial window cleaning for offices, shops, pubs and hospitality. Regular contracts and out-of-hours service. Free quotes. Call 0330 043 4811.",
-  },
-  {
-    slug: "pressure-washing",
-    title: "Pressure Washing",
-    metaTitle: "Pressure Washing — Patios, Driveways & Decking | Fresh For Less",
-    metaDescription:
-      "Professional pressure washing for driveways, patios, decking and paths from £80. Restore your outdoor spaces. Free quotes. Call 0330 043 4811.",
+      "Hot-pressure bin cleaning and deodorising from £6 per bin. Kills bacteria, removes odours, leaves bins fresh. Regular rounds available. Call 0330 043 4811.",
   },
 ];
 

@@ -4,45 +4,56 @@ import AnimatedSection from "../AnimatedSection";
 
 const packages = [
   {
-    name: "Terraced / Flat",
+    name: "Window Cleaning",
     price: 12,
     subtitle: "per clean",
-    description: "Ideal for terraced houses and apartments",
+    description: "Streak-free pure-water clean",
     popular: false,
     features: [
-      "All glass cleaned inside reach",
-      "Frames, sills & doors included",
-      "Pure-water reach & wash",
-      "4-weekly or 8-weekly schedule",
+      "Glass, frames & sills",
+      "Front door wiped each visit",
+      "Reach-and-wash up to 65ft",
+      "4-weekly or 8-weekly rounds",
     ],
   },
   {
-    name: "Semi-Detached",
-    price: 18,
-    subtitle: "per clean",
-    description: "Our most popular choice",
+    name: "Carpet Cleaning",
+    price: 35,
+    subtitle: "per room",
+    description: "Our most popular service",
     popular: true,
     features: [
-      "All glass cleaned inside reach",
-      "Frames, sills & doors included",
-      "Pure-water reach & wash",
-      "4-weekly or 8-weekly schedule",
-      "Conservatory glass included",
+      "Hot-water extraction",
+      "Stain & spot pre-treatment",
+      "Odour neutralised",
+      "Touch-dry in 2-4 hours",
+      "Pet & family safe solutions",
     ],
   },
   {
-    name: "Detached / Larger",
-    price: 25,
-    subtitle: "per clean",
-    description: "Best value for larger family homes",
+    name: "Upholstery Cleaning",
+    price: 35,
+    subtitle: "per seat",
+    description: "Sofas, chairs & mattresses",
     popular: false,
     features: [
-      "All glass cleaned inside reach",
-      "Frames, sills & doors included",
-      "Pure-water reach & wash",
-      "4-weekly or 8-weekly schedule",
-      "Conservatory glass included",
-      "Free first-clean discount",
+      "Fabric-safe deep extraction",
+      "Pet hair & dander removed",
+      "Odour neutraliser included",
+      "Patch-tested before clean",
+    ],
+  },
+  {
+    name: "Wheelie Bin Cleaning",
+    price: 6,
+    subtitle: "per bin",
+    description: "Fresh bins, no more smells",
+    popular: false,
+    features: [
+      "Hot-pressure jet wash",
+      "Kills 99.9% of bacteria",
+      "Long-lasting deodoriser",
+      "Monthly, quarterly or one-off",
     ],
   },
 ];
@@ -99,12 +110,12 @@ export default function Pricing({ onQuoteClick }: { onQuoteClick: () => void }) 
             No Hidden Fees.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
-            Transparent per-clean pricing with everything included. Frames, sills, and front doors as standard. No hidden extras.
+            Transparent prices for all four of our core services. Bundle two or more and save — we'll always quote upfront so there are no surprises on the day.
           </p>
         </AnimatedSection>
 
         {/* Pricing cards */}
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {packages.map((pkg, i) => (
             <AnimatedSection key={pkg.name} delay={i * 0.1}>
               <div
@@ -180,7 +191,7 @@ export default function Pricing({ onQuoteClick }: { onQuoteClick: () => void }) 
         {/* Additional rooms note */}
         <AnimatedSection delay={0.35}>
           <p className="mx-auto mt-10 max-w-2xl text-center text-sm leading-relaxed text-slate-500">
-            Larger property or extension? Add-ons from just &pound;5 per clean. Gutter clearing, fascia cleaning, and commercial quotes available on request.
+            Larger property, extra rooms, or commercial premises? Custom quotes on request. Combine two or more services in one visit and save up to 15%.
           </p>
         </AnimatedSection>
 

@@ -6,34 +6,39 @@ import AnimatedSection from "../AnimatedSection";
 
 const faqs = [
   {
-    question: "How long does a window clean take?",
+    question: "What services do you offer?",
     answer:
-      "A typical 3-bedroom semi-detached takes 20-30 minutes. Larger detached homes or properties with conservatories usually take 45-60 minutes.",
+      "We specialise in four core services: pure-water window cleaning, hot-water extraction carpet cleaning, deep upholstery cleaning for sofas and mattresses, and hot-pressure wheelie bin cleaning. You can book one or bundle several in a single visit.",
   },
   {
-    question: "Do I need to be home for the clean?",
+    question: "Can I book more than one service at the same visit?",
     answer:
-      "No \u2014 most of our customers aren\u2019t home when we visit. We just need access to a side gate or rear garden. We\u2019ll text or email you before each visit so you know when to expect us.",
+      "Absolutely \u2014 in fact, we encourage it. Combining two or more services in one appointment saves you up to 15% and means a single trip from our team.",
   },
   {
-    question: "What is pure-water window cleaning?",
+    question: "How long does a typical job take?",
     answer:
-      "We filter tap water through a multi-stage de-ionising system that removes 100% of the minerals. That pure water lifts dirt from the glass and dries naturally to a streak-free finish \u2014 no chemicals, no smears.",
+      "A semi-detached window clean takes 20-30 minutes. A 3-bed carpet clean is around 90 minutes. A 3-seater sofa takes 30-45 minutes. Bin cleans are a few minutes each on the kerb.",
   },
   {
-    question: "Why are my windows still wet when you leave?",
+    question: "Do I need to be home?",
     answer:
-      "That\u2019s normal with pure-water cleaning. The water is mineral-free, so it dries with no marks or spots in 30-60 minutes \u2014 leaving the glass perfectly clear.",
+      "Not for window or bin cleaning \u2014 we just need access. For carpet and upholstery cleaning we ask that someone over 18 is home to let us in and walk through the rooms.",
   },
   {
-    question: "What about frames, sills and doors?",
+    question: "How long do carpets and sofas take to dry?",
     answer:
-      "All included as standard. Our reach-and-wash brushes clean the uPVC frames and sills at the same time as the glass. Front doors are wiped down on every visit too.",
+      "Most carpets are touch-dry in 2-4 hours and fully dry the same day. Sofas and armchairs are typically dry within 4-6 hours. We'll open windows and use air movers where needed.",
+  },
+  {
+    question: "Are your products safe for pets and kids?",
+    answer:
+      "Yes \u2014 all of our cleaning solutions are non-toxic and hypoallergenic. Carpets and upholstery are safe for children and pets to use again as soon as they're dry.",
   },
   {
     question: "How much does it cost?",
     answer:
-      "Our prices start from \u00a312 per clean for a small terraced house. Check our pricing section for full details, or request a free no-obligation quote tailored to your property.",
+      "Window cleaning starts at \u00a312 per clean, carpet cleaning from \u00a335 per room, upholstery from \u00a335 per seat, and wheelie bin cleaning from \u00a36 per bin. See the pricing section for more or request a tailored quote.",
   },
   {
     question: "What areas do you cover?",
@@ -95,9 +100,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Everything you need to know about our window cleaning service.
-            Can't find your answer? Get in touch and we'll be happy to
-            help.
+            Everything you need to know about our window, carpet, upholstery, and bin cleaning services. Can't find your answer? Get in touch and we'll be happy to help.
           </p>
         </AnimatedSection>
 

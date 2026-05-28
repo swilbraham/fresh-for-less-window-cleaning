@@ -113,10 +113,10 @@ export default function About() {
               A Local Team That Cares About Your Home
             </h2>
             <p className="mt-6 text-base leading-relaxed text-slate-600">
-              Fresh For Less was founded on a simple belief: everyone deserves spotless windows — and no one should have to pay a fortune for it. We're a locally owned and operated team of trusted professionals who treat every property like our own.
+              Fresh For Less was founded on a simple belief: a clean home shouldn't cost a fortune. What started as a window-cleaning round has grown into a four-service specialist team — windows, carpets, upholstery, and wheelie bins — all under one trusted local roof.
             </p>
             <p className="mt-4 text-base leading-relaxed text-slate-600">
-              With over a decade of experience and thousands of satisfied customers, we've built our reputation on honest pricing, reliable scheduling, and a streak-free finish you can actually see. Our cleaners are background-checked, fully insured, and trained on the latest water-fed pole equipment.
+              With over a decade of experience and thousands of satisfied customers, we've built our reputation on honest pricing, reliable scheduling, and a finish you can actually see. Our cleaners are background-checked, fully insured, and trained on the latest commercial-grade equipment for every job we take on.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               {[
